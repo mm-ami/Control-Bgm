@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -71,6 +72,10 @@
   background: rgba(255, 255, 255, 0.3);
 }
 
+.inner-container h1 {
+  font-family: "M plus\1 p", "Helvetica Neue", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Arial, Meiryo, sans-serif;
+}
+
 @media (max-width: 768px) {
   .inner-container {
     height: 90%;
@@ -101,6 +106,7 @@
   background: none;
   border: none;
   cursor: pointer;
+  color: #2D1E26;
 }
 
 .main-sound .fas {
