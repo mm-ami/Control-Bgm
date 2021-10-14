@@ -1,6 +1,10 @@
 const playback = document.querySelectorAll('.playback');
 let song = document.querySelectorAll('.song');
-let icon = document.querySelectorAll('.fa-play')
+let icon = document.querySelectorAll('.fa-play');
+const range = document.querySelectorAll('.volume');
+const audio = document.querySelectorAll('audio');
+
+console.log(range)
 
 for(let v = 0; v < playback.length; v++) {
   function playsong() {
@@ -23,5 +27,11 @@ for(let v = 0; v < playback.length; v++) {
     } else {
       pausesong();
     }
+  });
+
+  audio[v].volume = range[v].value;
+
+  range[v].addEventListener('input', event => {
+    audio[v].volume = range[v].value;
   })
 }
