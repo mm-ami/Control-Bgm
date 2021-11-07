@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   const playback = document.querySelectorAll('.playback');
-  let song = document.querySelectorAll('.song');
-  let icon = document.querySelectorAll('.fa-play');
+  const song = document.querySelectorAll('.song');
+  const icon = document.querySelectorAll('.fa-play');
   const range = document.querySelectorAll('.volume');
   const audio = document.querySelectorAll('audio');
   
