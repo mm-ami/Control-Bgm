@@ -43,7 +43,8 @@
 }
 
 .inner-container h1 {
-  font-family: "M plus\1 p", "Helvetica Neue", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Arial, Meiryo, sans-serif;  
+  font-family: "sans-serif";
+  font-size: 27px;
 }
 
 .main-container {
