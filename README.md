@@ -7,3 +7,9 @@
 
 
 複数の音を組み合わせ、それぞれボリューム調節をすることができます。
+
+![127 0 0 1_5501_ (2)](https://user-images.githubusercontent.com/72249698/140669588-9afd38b0-1df8-490a-a68b-28c8e1c60039.png)
+
+使用音源<br>
+効果音ラボ https://soundeffect-lab.info/<br>
+効果音辞典 https://sounddictionary.info/
